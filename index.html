@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Магазин</title>
+    <script src="script.js"></script>
+</head>
+<body onload="Loaded()">
+  <div class="header">
+    <div class="logo">
+      <img src="Logo.webp" alt="">
+    </div>
+    <div class = "innerHeader">Monster High Super Dolls</div>
+    <div class="menu">
+      <div class="tabContainer">
+        <a href="index.html">Catalog</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="promo.html">Promo</a>
+        <a href="us.html">Us</a>
+
+        <div class="searchbox">
+          <input type="search" placeholder="Поиск" id="Search"> 
+          <button onclick="Search()">&#x1F50E;</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="trolley">
+    <img src="trolley.png" href ="cart.html">
+    <span id="productCount">0</span>
+  </div>
+  <nav class="main-menu">
+  <ul>
+    <li>
+    <div class="searchbox">
+      <input type="search" placeholder="Поиск по котам" id="Search"> 
+      <button onclick="Search()">&#x1F50E;</button>
+    </div>
+    </li>
+  </ul>
+  </nav>
+  <div class="catalog"></div>
+  <div class="overlay" onclick="hideModal()"></div>
+
+  <div class = "modal">
+    <div class="message" >
+        Sorry, not ready yet<br>
+        Извините, еще не готово<br>
+    </div>
+    <!-- <button onclick="hideModal()">Ладно</button> -->
+  </div>
+</body>
+
+</html>

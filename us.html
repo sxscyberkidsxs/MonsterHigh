@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Команда</title>
+    <script src="script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="Logo.webp" alt="">
+    </div>
+    <div class = "innerHeader">Monster High Super Dolls</div>
+    <div class="menu">
+      <div class="tabContainer">
+        <a href="index.html">Catalog</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="promo.html">Promo</a>
+        <a href="us.html">Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="trolley">
+    <img src="trolley.png" href ="cart.html">
+    <span id="productCount">0</span>
+  </div>
+  <nav class="main-menu">
+  <ul>
+    <li>
+    <div class="searchbox">
+      <input type="search" placeholder="Поиск по котам" id="Search"> 
+      <button onclick="Search()">&#x1F50E;</button>
+    </div>
+    </li>
+  </ul>
+  </nav>
+
+  <div class="usInfo">
+    <div class="infoComp"><a>Совмесиными усилиями нашей команды, мы собрали самую большую коллекцию кукол Monster High в России. Коллекционеры, родители и энтузиасты, мы рады всем.</a></div>
+  </div>
+  <div class="person">
+    <img src="port0.jpg" alt="">
+    <div class="personName"><a>Пальчик Ева</a></div>
+  </div>
+  <div class="person">
+    <img src="port1.jpg" alt="">
+    <div class="personName"><a>Пирожкова Яна</a></div>
+  </div>
+  <div class="person">
+    <img src="port2.jpg" alt="">
+    <div class="personName"><a>Гусь Анна</a></div>
+  </div>
+  <div class="person">
+    <img src="port3.jpg" alt="">
+    <div class="personName"><a>Кошка Евгения</a></div>
+  </div>
+  
+  <div class="overlay" onclick="hideModal()"></div>
+  <div class = "modal">
+    <div class="message" >
+        Sorry, not ready yet<br>
+        Извините, еще не готово<br>
+    </div>
+    <button onclick="hideModal()">Ладно</button>
+  </div>
+</body>
+</html>

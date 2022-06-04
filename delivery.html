@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Самовывоз</title>
+    <script src="script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="Logo.webp" alt="">
+    </div>
+    <div class = "innerHeader">Monster High Super Dolls</div>
+    <div class="menu">
+      <div class="tabContainer">
+        <a href="index.html">Catalog</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="promo.html">Promo</a>
+        <a href="us.html">Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="trolley">
+    <img src="trolley.png" href ="cart.html">
+    <span id="productCount">0</span>
+  </div>
+  <nav class="main-menu">
+  <ul>
+    <li>
+    <div class="searchbox">
+      <input type="search" placeholder="Поиск по котам" id="Search"> 
+      <button onclick="Search()">&#x1F50E;</button>
+    </div>
+    </li>
+  </ul>
+  </nav>
+
+  <div class="points">
+    <div class="adress"><a>Новосибирск Ул. Котовского 2</a></div>
+  </div>
+  <div class="points">
+    <div class="adress"><a>Новосибирск Ул. Геодезическая 15</a></div>
+  </div>
+  <div class="points">
+    <div class="adress"><a>Новосибирск Ул. Грушевая 31б</a></div>
+  </div>
+  <div class="points">
+    <div class="adress"><a>Новосибирск Ул. Верданского 1/3</a></div>
+  </div>
+  <div class="points">
+    <div class="adress"><a>Новосибирск Ул. Аллейная 17/1</a></div>
+  </div>
+  <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.2563496840085!2d82.8598044354113!3d54.986139295496116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe6ccd59f7a95%3A0xe85e1b0be736a977!2z0YPQuy4g0JrQvtGC0L7QstGB0LrQvtCz0L4sIDIsINCd0L7QstC-0YHQuNCx0LjRgNGB0LosINCd0L7QstC-0YHQuNCx0LjRgNGB0LrQsNGPINC-0LHQuy4sIDYzMDAzMg!5e0!3m2!1sru!2sru!4v1654324251823!5m2!1sru!2sru" style="border-radius: 15px;" width="900" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="overlay" onclick="hideModal()"></div>
+  <div class = "modal">
+    <div class="message" >
+        Sorry, not ready yet<br>
+        Извините, еще не готово<br>
+    </div>
+    <button onclick="hideModal()">Ладно</button>
+  </div>
+</body>
+</html>
